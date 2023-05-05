@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subjects of Examination</title>
+    <style type="text/css">
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body
+            {
+                background-color: #B1E0E4;
+                font-family: sans-serif;
+            }
+            .table-container
+            {
+                padding: 0 10%;
+                margin: 40px auto 0;
+            }
+            .heading
+            {
+                font-size: 40px;
+                text-align: center;
+                color: #000000;
+                margin-bottom: 40px;
+            }
+            .table
+            {
+                width: 100%;
+                border-collapse: collapse;
+            }
+            .table thead
+            {
+                background-color: #31BAE4;
+            }
+            .table thead tr th 
+            {
+                font-size: 14px;
+                font-weight: 600;
+                letter-spacing: 0.35px;
+                color: #FFFFFF;
+                opacity: 1;
+                padding: 12px;
+                vertical-align: top;
+                border: 1px solid #00000085;
+            }
+            .table tbody tr td 
+            {
+                font-size: 14px;
+                letter-spacing: 0.35px;
+                font-weight: normal;
+                color: #000000;
+                background-color:#d7eff0;
+                padding: 8px;
+                text-align: center;
+                border: 1px solid #00000085;
+            }
+            .table .text_open
+            {
+                font-size: 14px;
+                font-weight: bold;
+                letter-spacing: 0.35px;
+                color: #FF1046;
+            }
+            .table tbody tr td .btn 
+            {
+                width: 130px;
+                text-decoration: none;
+                line-height: 35px;
+                display: inline-block;
+                background-color: #FF1046;
+                font-weight: medium;
+                color: #FFFFFF;
+                text-align: center;
+                vertical-align: middle;
+                user-select: none;
+                border: 1px solid transparent;
+                font-size: 14px;
+                opacity: 1;
+            }
+@media (max-width: 768px)
+{
+    .table thead
+    {
+        display: none;
+    }
+    .table, .table tbody, .table tr, .table td
+    {
+        display: block;
+        width: 100%;
+    }
+    .table tr
+    {
+        margin-bottom: 15px;
+    }
+    .table tbody tr td 
+    {
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+    }
+    .table td:before 
+    {
+        content: attr(data-lebel);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        font-weight: 600;
+        font-size: 14px;
+        text-align: left;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="table-container">
+        <h1 class="heading">Subjects of Examination</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Part I </th>
+                    <th>Part II</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-lebel="Part I">Compulsory Candidates for the examination are required to have
+                        completed satisfactorily
+                        </td>
+                    <td data-lebel="Part II">Subjects of Examination Percentage Marks External(E) Internal
+                        (I) Examination
+                        </td>
+                </tr>
+                <tr>
+                    <td data-lebel="Part I"><b>1.</b>The third language to be studied should be determined as
+                        under:
+                        Subject to the State requirements, the Schools are free to
+                        introduce suitable Third Languages, Indian or Foreign, for
+                        study from Class V to VIII provided the School has suitably
+                        qualified staff and necessary teaching aids that may be
+                        needed especially for the teaching of foreign languages as a
+                        Third Language.
+                        Students taking a particular Third Language, Indian or
+                        Foreign, cannot offer that Language as a Second Language.
+                        <br></br>
+                        <b>2.</b>Art (Internal Assessment)
+                        <br></br>
+                        <b>3.</b>Socially Useful Productive Work and Community Service
+                        (Internal Assessment).
+                        <br></br>
+                        <b>4.</b>Physical Education. 
+                        <br></br>
+                        <b>5.</b>Education in Moral and Spiritual Values. 
+                    </td>
+                    <td data-lebel="Part II">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Group I</th>
+                                </tr>
+                                <tr>
+                                    <th>Subject
+                                        <p>(Any three of the following subjects)</p>
+                                    </th>
+                                    <th>Nature</th>
+                                    <th>E</th>
+                                    <th>I</th>
+                
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td data-lebel="Subject">English </td>
+                                    <td data-lebel="Nature">Comp</td>
+                                    <td data-lebel="E">80%</td>
+                                    <td data-lebel="I">20%</td>
+                                </tr>
+                                <tr>
+                                    <td data-lebel="Subject">A Second Language
+                                        (one/two)
+                                        </td>
+                                    <td data-lebel="Nature">Comp</td>
+                                    <td data-lebel="E">80%</td>
+                                    <td data-lebel="I">20%</td>
+                                </tr>
+                                <tr>
+                                    <td data-lebel="Subject">History, Civics &
+                                        Geography</td>
+                                    <td data-lebel="Nature">Choice</td>
+                                    <td data-lebel="E">80%</td>
+                                    <td data-lebel="I">20%</td>
+                                </tr>
+                                <tr>
+                                    <td data-lebel="Subject">History, Civics &
+                                        Geography</td>
+                                    <td data-lebel="Nature">Choice</td>
+                                    <td data-lebel="E">80%</td>
+                                    <td data-lebel="I">20%</td>
+                                </tr>
+                                <thead>
+                                    <tr>
+                                        <th>Group II</th>
+                                    </tr>
+                                    <tr>
+                                        <th>Subject
+                                            <p> (Any two/three of the following subjects)</p>
+                                        </th>
+                                        <th>Nature</th>
+                                        <th>E</th>
+                                        <th>I</th>
+                    
+                                    </tr>
+                                </thead>
+                                <tr>
+                                    <td data-lebel="Subject">Mathematics </td>
+                                    <td data-lebel="Nature">Choice </td>
+                                    <td data-lebel="E">80%</td>
+                                    <td data-lebel="I">...</td>
+                                </tr>
+                                <tr>
+                                    <td data-lebel="Subject">Science (PCB) </td>
+                                    <td data-lebel="Nature">Choice </td>
+                                    <td data-lebel="E">80%</td>
+                                    <td data-lebel="I">...</td>
+                                </tr>
+                                <tr>
+                                    <td data-lebel="Subject">Economics</td>
+                                    <td data-lebel="Nature">Choice </td>
+                                    <td data-lebel="E">80%</td>
+                                    <td data-lebel="I">...</td>
+                                </tr>
+                                <tr>
+                                    <td data-lebel="Subject">Commercial Studies</td>
+                                    <td data-lebel="Nature">Choice </td>
+                                    <td data-lebel="E">80%</td>
+                                    <td data-lebel="I">...</td>
+                                </tr>
+                                <tr>
+                                    <td data-lebel="Subject">A Modern Foreign
+                                        Language</td>
+                                    <td data-lebel="Nature">Choice </td>
+                                    <td data-lebel="E">80%</td>
+                                    <td data-lebel="I">...</td>
+                                </tr>
+                                <tr>
+                                    <td data-lebel="Subject">A Classical Language</td>
+                                    <td data-lebel="Nature">Choice </td>
+                                    <td data-lebel="E">80%</td>
+                                    <td data-lebel="I">...</td>
+                                </tr>
+                                <tr>
+                                    <td data-lebel="Subject">Environmental
+                                        Science</td>
+                                    <td data-lebel="Nature">Choice </td>
+                                    <td data-lebel="E">80%</td>
+                                    <td data-lebel="I">...</td>
+                                </tr>
+                                <thead>
+                                    <tr>
+                                        <th>Group III</th>
+                                    </tr>
+                                    <tr>
+                                        <th>Subject
+                                            <p> (Any one of the following subjects)</p>
+                                        </th>
+                                        <th>Nature</th>
+                                        <th>E</th>
+                                        <th>I</th>
+                    
+                                    </tr>
+                                    
+                                </thead>
+                                <tr>
+                                    <td data-lebel="Subject">Computer Applications</td>
+                                    <td data-lebel="Nature">...</td>
+                                    <td data-lebel="E">50%</td>
+                                    <td data-lebel="I">50%</td>
+                                </tr>
+                                <tr>
+                                    <td data-lebel="Subject">Economic
+                                        Applications</td>
+                                    <td data-lebel="Nature">...</td>
+                                    <td data-lebel="E">50%</td>
+                                    <td data-lebel="I">50%</td>
+                                </tr>
+                                <tr>
+                                    <td data-lebel="Subject">Commercial
+                                        Applications </td>
+                                    <td data-lebel="Nature">...</td>
+                                    <td data-lebel="E">50%</td>
+                                    <td data-lebel="I">50%</td>
+                                </tr>
+                                <tr>
+                                    <td data-lebel="Subject">Art</td>
+                                    <td data-lebel="Nature">...</td>
+                                    <td data-lebel="E">50%</td>
+                                    <td data-lebel="I">50%</td>
+                                </tr>
+                                <tr>
+                                    <td data-lebel="Subject">Home Science</td>
+                                    <td data-lebel="Nature">...</td>
+                                    <td data-lebel="E">50%</td>
+                                    <td data-lebel="I">50%</td>
+                                </tr>
+                                <tr>
+                                    <td data-lebel="Subject">Performing Arts</td>
+                                    <td data-lebel="Nature">...</td>
+                                    <td data-lebel="E">50%</td>
+                                    <td data-lebel="I">50%</td>
+                                </tr>
+                                <tr>
+                                    <td data-lebel="Subject">Cookery</td>
+                                    <td data-lebel="Nature">...</td>
+                                    <td data-lebel="E">50%</td>
+                                    <td data-lebel="I">50%</td>
+                                </tr>
+                                <tr>
+                                    <td data-lebel="Subject">Fashion Designing</td>
+                                    <td data-lebel="Nature">...</td>
+                                    <td data-lebel="E">50%</td>
+                                    <td data-lebel="I">50%</td>
+                                </tr>
+                                <tr>
+                                    <td data-lebel="Subject">Physical Education</td>
+                                    <td data-lebel="Nature">...</td>
+                                    <td data-lebel="E">50%</td>
+                                    <td data-lebel="I">50%</td>
+                                </tr>
+                                <tr>
+                                    <td data-lebel="Subject">Yoga</td>
+                                    <td data-lebel="Nature">...</td>
+                                    <td data-lebel="E">50%</td>
+                                    <td data-lebel="I">50%</td>
+                                </tr>
+                                <tr>
+                                    <td data-lebel="Subject">Technical Drawing
+                                        Applications</td>
+                                    <td data-lebel="Nature">...</td>
+                                    <td data-lebel="E">50%</td>
+                                    <td data-lebel="I">50%</td>
+                                </tr>
+                                <tr>
+                                    <td data-lebel="Subject">Environmental
+                                        Applications </td>
+                                    <td data-lebel="Nature">...</td>
+                                    <td data-lebel="E">50%</td>
+                                    <td data-lebel="I">50%</td>
+                                </tr>
+                                <tr>
+                                    <td data-lebel="Subject">Modern Foreign
+                                        Language</td>
+                                    <td data-lebel="Nature">...</td>
+                                    <td data-lebel="E">50%</td>
+                                    <td data-lebel="I">50%</td>
+                                </tr>
+                                <tr>
+                                    <td data-lebel="Subject">Mass Media &
+                                        Communication</td>
+                                    <td data-lebel="Nature">...</td>
+                                    <td data-lebel="E">50%</td>
+                                    <td data-lebel="I">50%</td>
+                                </tr>
+                                <tr>
+                                    <td data-lebel="Subject">Beauty & Wellness :
+                                        Skin & Beauty</td>
+                                    <td data-lebel="Nature">...</td>
+                                    <td data-lebel="E">50%</td>
+                                    <td data-lebel="I">50%</td>
+                                </tr>
+                                <tr>
+                                    <td data-lebel="Subject">Hospitality
+                                        Management</td>
+                                    <td data-lebel="Nature">...</td>
+                                    <td data-lebel="E">50%</td>
+                                    <td data-lebel="I">50%</td>
+                                </tr>
+                                <tr>
+                                    <td data-lebel="Subject">Beauty & Wellness :
+                                        Hair Styling</td>
+                                    <td data-lebel="Nature">...</td>
+                                    <td data-lebel="E">50%</td>
+                                    <td data-lebel="I">50%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+               
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
